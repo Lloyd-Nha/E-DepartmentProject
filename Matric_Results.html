@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="read-csv.js"></script>
+<link rel="stylesheet" type="text/css" href="Appearance.css">
+<title>Department of Education</title>
+</head>
+<body>
+<div> 
+  
+  <img src= "Dp_Education.png" id = "logo">
+   <h1>Matric Results 2016</h1> 
+     <input type="file"  id="csvFileInput"  onchange="handleFiles(this.files)"
+            accept=".csv">
+		<center style = " margin-bottom: 30px">	
+		    <input type="submit" value="Find" onclick="SearchFunction()" id = "find_btn"/>	
+                   <div id= "input_div">
+                           <input type= "text" placeholder = " School Centre Number" id ="Search_Number" value=""/> 
+		           </div>	
+        </center>			 
+              
+			  
+			     <table id ="school_table" width ="100%" border ="1">
+				     <tr>
+					    <th>School Name</th>
+						<th>Wrote </th>
+						<th>Passed</th>
+						<th>Failed</th>
+					 </tr>
+				 <table>
+			  
+			 
+
+ </div>
+
+
+
+
+
+</body>
+</html>
